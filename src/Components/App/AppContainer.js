@@ -19,7 +19,8 @@ class AppContainer extends Component {
         }
       })
     }
-    this._deleteNotification = id => {
+    this._deleteNotification = id => 
+    {
       console.log(this)
       this.setState(currentState => {
         const newState = delete currentState.notifications[id];

@@ -2,7 +2,9 @@
   "name": "anti-redux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jaehongjun.github.io/antiredux",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-fontawesome": "^1.6.1",
@@ -16,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
